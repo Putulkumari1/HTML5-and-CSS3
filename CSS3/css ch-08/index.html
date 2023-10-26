@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRANSFORM TRANSITION AND ANIMATION</title>
+    <style>
+      .container {
+        background-color: red;
+        height: 455px;
+      }
+      .box{
+        border: 2px solid black;
+        transform: translate(134px, 56px) rotateX(45deg);
+        display: inline;
+       
+        transform-origin: 0;
+        /* transform: scale(4,7); */
+        /* transform: skew(2,3); */
+      }
+      .box:hover img {
+        width: 56px;
+      }
+
+      img{
+        width: 444px;
+        transition-property: width;
+        transition-duration: .1s;
+        transition-timing-function: ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="pic.jpg" width="300px" height="300px">
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+    <h1>Travel web site</h1>
+    
+        <form>
+            <form action="post">
+                <div>
+                <label for="username">Enter your username-</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+            </div>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe my channel</label>
+                </div>
+                <div>
+                    <label for="comment">Enter your comment</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                </div>
+
+                  <div>
+                    <select name="country">
+                        <option value="usa">USA</option>
+                        <option value="india">INDIA</option>
+                        <option value="brazil">BRAZIL</option>
+                    </select>
+                  </div>
+        </form>
+    
+</body>
+</html>

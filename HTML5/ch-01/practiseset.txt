@@ -1,0 +1,3 @@
+q1- inspect your fav websites and change somethings on the page which is display.
+q2- go to your fav website and try to view the page source and write the exact lines od code.does it close the website! why?
+q3- write any html code inside a test files . does it work if you write it using notepad

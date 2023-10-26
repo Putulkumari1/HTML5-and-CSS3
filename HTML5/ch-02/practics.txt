@@ -1,0 +1,5 @@
+q1 creating html heading (title),a primary heading and a subheading which tags did for use?
+q2-create a page with 5 wallpaper image taken from the internet?
+q3- use br and hr tags to display a piece of text with linebreaks>
+q4- try to write chemical formula?
+q5- try to write wikipedia article  using html

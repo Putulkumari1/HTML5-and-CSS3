@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Josefin+Sans&family=Oswald&display=swap');
+       
+    .header{
+        width: 100px;
+        border-color: aqua;
+    }

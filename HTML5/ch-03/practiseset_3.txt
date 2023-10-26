@@ -1,0 +1,3 @@
+q1. create an SEO website.
+q2. create html page which opens google when clicked on an image.
+q3.create a website which has your 5 top used websites bookedmarked .the links should open in a new tab.
